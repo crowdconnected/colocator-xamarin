@@ -49,12 +49,16 @@
     <Compile Include="ColocatorImplementation.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainApplication.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
+    <PackageReference Include="Plugin.CurrentActivity">
+      <Version>2.1.0.4</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
@@ -66,6 +70,14 @@
     <ProjectReference Include="..\Colocator.Abstractions\Colocator.Abstractions.csproj">
       <Project>{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}</Project>
       <Name>Colocator.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Android\ColocatorAndroid.Binding\ColocatorAndroid.Binding\ColocatorAndroid.Binding.csproj">
+      <Project>{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}</Project>
+      <Name>ColocatorAndroid.Binding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Android\TrueTime.Binding\TrueTime.Binding\TrueTime.Binding.csproj">
+      <Project>{EC8EA2B5-5D91-43ED-B71D-5E1C2F2F668B}</Project>
+      <Name>TrueTime.Binding</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Colocator</id>
-    <version>1.0.4.4</version>
+    <version>1.0.6.1</version>
     <title>Colocator</title>
     <authors>Crowd Connected Ltd.</authors>
     <owners>Robert Tanase</owners>
@@ -11,12 +11,26 @@
     <description>Colocator NET CrossPlatform Library</description>
     <releaseNotes>Initial release</releaseNotes>
     <summary>This version of Colocator uses a .NET Standard Library to encapsulate and share code across platforms. </summary>
+    <dependencies>
+      <group targetFramework="MonoAndroid0.0">
+        <dependency id="Xamarin.GooglePlayServices.Location" version="71.1600.0" />
+        <dependency id="Xamarin.GooglePlayServices.Auth" version="71.1600.0" />
+        <dependency id="AndroidAltBeaconLibrary_2_15" version="2.15.0" />
+        <dependency id="Square.OkIO" version="1.9.0.0" />
+        <dependency id="Xamarin.Android.Support.v4" version="28.0.0.3" />
+        <dependency id="Xamarin.AndroidX.MultiDex" version="2.0.1" />
+        <dependency id="Plugin.CurrentActivity" version="2.1.0.4" />
+      </group>
+    </dependencies>
    </metadata>
 
   <files>
      <!-- the platform-specific assemblies for Android -->
     <file src="Colocator.Droid/bin/Debug/Colocator.Abstractions.dll" target="lib/MonoAndroid" />
     <file src="Colocator.Droid/bin/Debug/Colocator.dll" target="lib/MonoAndroid" />
+    <file src="Colocator.Droid/bin/Debug/ColocatorAndroid.Binding.dll" target="lib/MonoAndroid" />
+    <file src="Colocator.Droid/bin/Debug/TrueTime.Binding.dll" target="lib/MonoAndroid" />
+
     <!-- the platform-specific assemblies for iOS -->
     <file src="Colocator.iOS/bin/Debug/Colocator.Abstractions.dll" target="lib/Xamarin.iOS" />
     <file src="Colocator.iOS/bin/Debug/Colocator.dll" target="lib/Xamarin.iOS" />

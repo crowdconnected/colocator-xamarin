@@ -4,6 +4,124 @@
     "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/Colocator.Droid.csproj": {}
   },
   "projects": {
+    "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/ColocatorAndroid.Binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/ColocatorAndroid.Binding.csproj",
+        "projectName": "ColocatorAndroid.Binding",
+        "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/ColocatorAndroid.Binding.csproj",
+        "packagesPath": "/Users/tcode/.nuget/packages/",
+        "outputPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tcode/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "AndroidAltBeaconLibrary_2_15": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Square.OkIO": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.AndroidX.MultiDex": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Xamarin.GooglePlayServices.Auth": {
+              "target": "Package",
+              "version": "[71.1600.0, )"
+            },
+            "Xamarin.GooglePlayServices.Location": {
+              "target": "Package",
+              "version": "[71.1600.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj",
+        "projectName": "truetime",
+        "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj",
+        "packagesPath": "/Users/tcode/.nuget/packages/",
+        "outputPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tcode/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
     "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -81,6 +199,12 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
+              "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/ColocatorAndroid.Binding.csproj": {
+                "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/ColocatorAndroid.Binding.csproj"
+              },
+              "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj": {
+                "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj"
+              },
               "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj": {
                 "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj"
               }
@@ -91,6 +215,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
               "version": "[28.0.0.3, )"
