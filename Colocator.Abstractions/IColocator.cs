@@ -36,8 +36,6 @@ namespace Colocator
 
 		// iOS METHODS
 
-		void AskMotionPermissions();
-
 		void TriggerMotionPermissionPopUp();
 
 		void TriggerBluetoothPermissionPopUp();
@@ -54,10 +52,10 @@ namespace Colocator
 
     public interface ColocatorDelegate
     {
-	    void DidReceiveLocation(LocationResponse location);
+	    void DidReceiveLocation(ColocatorLocationResponse location);
     }
 
-    public struct LocationResponse
+    public struct ColocatorLocationResponse
     {
 	    public double Latitude { get; set; }
 

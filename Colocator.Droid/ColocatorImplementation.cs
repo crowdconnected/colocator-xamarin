@@ -29,11 +29,6 @@ namespace Colocator
             Console.WriteLine("Added Alias");
         }
 
-        public void AskMotionPermissions()
-        {
-            Console.WriteLine("Method available only on iOS");
-        }
-
         public void ReceivedSilentNotificationWithUserInfo(IDictionary userInfo, string key, Action<bool> completion)
         {
             Console.WriteLine("Method available only on iOS");
@@ -47,7 +42,7 @@ namespace Colocator
         public void RequestLocation()
         {
             Console.WriteLine("Requested One Location");
-            LocationResponse loc = new LocationResponse();
+            ColocatorLocationResponse loc = new ColocatorLocationResponse();
             loc.Latitude = 1;
             loc.Longitude = 2;
             loc.HeadingOffSet = 3;

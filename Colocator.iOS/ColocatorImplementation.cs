@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Foundation;
 
 namespace Colocator
 {
@@ -11,79 +12,91 @@ namespace Colocator
         public static IColocator Instance => instance.Value;
     }
 
-    internal class ColocatorImplementation : IColocator
+    internal class ColocatorImplementation : CCLocation.CCLocationDelegate, IColocator
     {
-        public string DeviceId => "Colocator iOS - Device ID";
+        public string DeviceId => CCLocation.CCLocation.SharedInstance.DeviceId;
 
-        public string TestLibraryIntegration => "Colocator iOS - Integration test result";
+        public string TestLibraryIntegration => CCLocation.CCLocation.SharedInstance.TestLibraryIntegration;
 
         public ColocatorDelegate Delegate { get; set; }
+
+        public void StartWithAppKey(string appKey)
+        {
+            CCLocation.CCLocation.SharedInstance.StartWithApiKey(appKey, null);
+            CCLocation.CCLocation.SharedInstance.Delegate = this;
+        }
+
+        public void Stop()
+        {
+            CCLocation.CCLocation.SharedInstance.Stop();
+        }
+
+        public void AddAliasWithKey(string key, string value)
+        {
+            CCLocation.CCLocation.SharedInstance.AddAliasWithKey(key, value);
+        }
+
+        public void TriggerBluetoothPermissionPopUp()
+        {
+            CCLocation.CCLocation.SharedInstance.TriggerBluetoothPermissionPopUp();
+        }
+
+        public void TriggerMotionPermissionPopUp()
+        {
+            CCLocation.CCLocation.SharedInstance.TriggerMotionPermissionPopUp();
+        }
+
+        public void ReceivedSilentNotificationWithUserInfo(IDictionary userInfo, string key, Action<bool> completion)
+        {
+            NSDictionary convertedDict = userInfo as NSDictionary;
+            CCLocation.CCLocation.SharedInstance.ReceivedSilentNotificationWithUserInfo(convertedDict, key, completion: (response) => { completion(response);  });
+        }
+
+        public void RegisterLocationListener()
+        {
+            CCLocation.CCLocation.SharedInstance.RegisterLocationListener();
+        }
+
+        public void RequestLocation()
+        {
+            CCLocation.CCLocation.SharedInstance.RequestLocation();
+        }
+
+        public void UnregisterLocationListener()
+        {
+            CCLocation.CCLocation.SharedInstance.UnregisterLocationListener();
+        }
+
+        public void UpdateLibraryBasedOnClientStatusWithClientKey(string key, bool isSilentNotification, Action<bool> completion)
+        {
+            CCLocation.CCLocation.SharedInstance.UpdateLibraryBasedOnClientStatusWithClientKey(key, false, completion: (response) => { completion(response); });
+        }
 
         public void ActivateForegroundService(string title, int icon, string channel)
         {
             Console.WriteLine("Method available only on Android");
         }
 
-        public void AddAliasWithKey(string key, string value)
+        public override void CcLocationDidConnect()
         {
-            Console.WriteLine("Added Alias");
+            Console.WriteLine("Colocator connected successfully");
         }
 
-        public void AskMotionPermissions()
+        public override void CcLocationDidFailWithErrorWithError(NSError error)
         {
-            Console.WriteLine("Asked for permission");
+            Console.WriteLine("Colocator failed to connect with error " + error);
         }
 
-        public void ReceivedSilentNotificationWithUserInfo(IDictionary userInfo, string key, Action<bool> completion)
+        public override void DidReceiveCCLocation(CCLocation.LocationResponse location)
         {
-            Console.WriteLine("Received SPN");
-        }
-
-        public void RegisterLocationListener()
-        {
-            Console.WriteLine("Registered for location updates");
-        }
-
-        public void RequestLocation()
-        {
-            Console.WriteLine("Request one location");
-            LocationResponse loc = new LocationResponse();
-            loc.Latitude = 1;
-            loc.Longitude = 2;
-            loc.HeadingOffSet = 3;
-            loc.Error = 4;
-            loc.Timestamp = 5;
+            Console.WriteLine("Colocator officially sent a location");
+            ColocatorLocationResponse loc = new ColocatorLocationResponse();
+            loc.Latitude = location.Latitude;
+            loc.Longitude = location.Longitude;
+            loc.HeadingOffSet = location.HeadingOffSet;
+            loc.Error = location.Error;
+            loc.Timestamp = location.Timestamp;
             Delegate.DidReceiveLocation(loc);
-        }
-
-        public void StartWithAppKey(string appKey)
-        {
-			Console.WriteLine("Starting Colocator iOS ...");
-		}
-
-        public void Stop()
-        {
-			Console.WriteLine("Stop Colocator iOS");
-		}
-
-        public void TriggerBluetoothPermissionPopUp()
-        {
-            Console.WriteLine("Bluetooth Permission");
-        }
-
-        public void TriggerMotionPermissionPopUp()
-        {
-            Console.WriteLine("Motion Permission");
-        }
-
-        public void UnregisterLocationListener()
-        {
-            Console.WriteLine("Unregistered from location updates");
-        }
-
-        public void UpdateLibraryBasedOnClientStatusWithClientKey(string key, bool isSilentNotification, Action<bool> completion)
-        {
-            Console.WriteLine("Updated library based on status ");
         }
     }
 }

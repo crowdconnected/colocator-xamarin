@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{7C44723E-A117-49D9-AA08-1015603B5CF3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Colocator.iOS/ColocatorImplementation.cs">
     <Files>
-      <File FileName="Colocator.iOS/ColocatorImplementation.cs" Line="47" Column="38" />
-      <File FileName="Colocator.Droid/ColocatorImplementation.cs" Line="26" Column="1" />
+      <File FileName="Colocator.iOS/ColocatorImplementation.cs" Line="32" Column="10" />
+      <File FileName="Colocator.Droid/ColocatorImplementation.cs" Line="29" Column="46" />
+      <File FileName="Colocator.Abstractions/IColocator.cs" Line="54" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Colocator" expanded="True" selected="True">
             <Node name="Colocator.Abstractions" expanded="True" />
+            <Node name="Colocator.Binding" expanded="True" />
             <Node name="Colocator.Droid" expanded="True" />
             <Node name="Colocator.iOS" expanded="True" />
             <Node name="Colocator.NetStandard" expanded="True">

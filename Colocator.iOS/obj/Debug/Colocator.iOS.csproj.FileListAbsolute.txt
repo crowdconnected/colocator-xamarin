@@ -8,3 +8,5 @@
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.iOS.csproj.CopyComplete
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.pdb
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/NativeLibrary.dll
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/NativeLibrary.pdb

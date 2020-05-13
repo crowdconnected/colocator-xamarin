@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Colocator</id>
-    <version>1.0.3.2</version>
+    <version>1.0.4.4</version>
     <title>Colocator</title>
     <authors>Crowd Connected Ltd.</authors>
     <owners>Robert Tanase</owners>
@@ -20,6 +20,7 @@
     <!-- the platform-specific assemblies for iOS -->
     <file src="Colocator.iOS/bin/Debug/Colocator.Abstractions.dll" target="lib/Xamarin.iOS" />
     <file src="Colocator.iOS/bin/Debug/Colocator.dll" target="lib/Xamarin.iOS" />
+    <file src="Colocator.iOS/bin/Debug/NativeLibrary.dll" target="lib/Xamarin.iOS" />
 
     <!-- the bait assemblies -->
     <file src="Colocator.Abstractions/bin/Debug/netstandard2.0/Colocator.Abstractions.dll" target="lib/netstandard" />

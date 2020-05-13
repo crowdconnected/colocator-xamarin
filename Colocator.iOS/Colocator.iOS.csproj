@@ -51,6 +51,10 @@
       <Project>{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}</Project>
       <Name>Colocator.Abstractions</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Colocator.Binding\Colocator.Binding\Colocator.Binding.csproj">
+      <Project>{78452512-F417-4D5D-81F0-8D73F6E43BB9}</Project>
+      <Name>Colocator.Binding</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

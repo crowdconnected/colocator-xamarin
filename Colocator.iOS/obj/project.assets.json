@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Colocator.Abstractions.dll": {}
         }
+      },
+      "NativeLibrary/1.0.0": {
+        "type": "project",
+        "framework": "Xamarin.iOS,Version=v1.0",
+        "compile": {
+          "bin/placeholder/NativeLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NativeLibrary.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Colocator.Abstractions/Colocator.Abstractions.csproj",
       "msbuildProject": "../Colocator.Abstractions/Colocator.Abstractions.csproj"
+    },
+    "NativeLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj",
+      "msbuildProject": "../../Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "Colocator.Abstractions >= 1.0.0"
+      "Colocator.Abstractions >= 1.0.0",
+      "NativeLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,6 +68,9 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
+            "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj": {
+              "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj"
+            },
             "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj": {
               "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj"
             }

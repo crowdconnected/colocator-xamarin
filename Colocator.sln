@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.iOS", "Colocator.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.NetStandard", "Colocator.NetStandard\Colocator.NetStandard.csproj", "{68B9E702-C682-470B-9C0A-86879D892AA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.Binding", "..\Colocator.Binding\Colocator.Binding\Colocator.Binding.csproj", "{78452512-F417-4D5D-81F0-8D73F6E43BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{68B9E702-C682-470B-9C0A-86879D892AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B9E702-C682-470B-9C0A-86879D892AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B9E702-C682-470B-9C0A-86879D892AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78452512-F417-4D5D-81F0-8D73F6E43BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78452512-F417-4D5D-81F0-8D73F6E43BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78452512-F417-4D5D-81F0-8D73F6E43BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78452512-F417-4D5D-81F0-8D73F6E43BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

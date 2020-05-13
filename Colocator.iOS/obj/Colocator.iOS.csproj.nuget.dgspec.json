@@ -4,6 +4,36 @@
     "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/Colocator.iOS.csproj": {}
   },
   "projects": {
+    "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj",
+        "projectName": "NativeLibrary",
+        "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj",
+        "packagesPath": "/Users/tcode/.nuget/packages/",
+        "outputPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tcode/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {}
+      }
+    },
     "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -81,6 +111,9 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
+              "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj": {
+                "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator.Binding/Colocator.Binding/Colocator.Binding.csproj"
+              },
               "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj": {
                 "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj"
               }
