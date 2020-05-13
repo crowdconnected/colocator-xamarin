@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>Colocator</id>
+    <version>1.0.3.2</version>
+    <title>Colocator</title>
+    <authors>Crowd Connected Ltd.</authors>
+    <owners>Robert Tanase</owners>
+    <!-- <license type="file">license.txt</license> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Colocator NET CrossPlatform Library</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <summary>This version of Colocator uses a .NET Standard Library to encapsulate and share code across platforms. </summary>
+   </metadata>
+
+  <files>
+     <!-- the platform-specific assemblies for Android -->
+    <file src="Colocator.Droid/bin/Debug/Colocator.Abstractions.dll" target="lib/MonoAndroid" />
+    <file src="Colocator.Droid/bin/Debug/Colocator.dll" target="lib/MonoAndroid" />
+    <!-- the platform-specific assemblies for iOS -->
+    <file src="Colocator.iOS/bin/Debug/Colocator.Abstractions.dll" target="lib/Xamarin.iOS" />
+    <file src="Colocator.iOS/bin/Debug/Colocator.dll" target="lib/Xamarin.iOS" />
+
+    <!-- the bait assemblies -->
+    <file src="Colocator.Abstractions/bin/Debug/netstandard2.0/Colocator.Abstractions.dll" target="lib/netstandard" />
+    <file src="Colocator.NetStandard/bin/Debug/netstandard2.0/Colocator.dll" target="lib/netstandard" />
+    </files>
+</package>

@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.Abstractions", "Colocator.Abstractions\Colocator.Abstractions.csproj", "{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.Droid", "Colocator.Droid\Colocator.Droid.csproj", "{7C44723E-A117-49D9-AA08-1015603B5CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.iOS", "Colocator.iOS\Colocator.iOS.csproj", "{0A15460D-2B70-4F7E-9A3D-0A98DCCBC16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocator.NetStandard", "Colocator.NetStandard\Colocator.NetStandard.csproj", "{68B9E702-C682-470B-9C0A-86879D892AA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7482F1DE-B2D7-40D9-8CFB-669AEDCF9860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C44723E-A117-49D9-AA08-1015603B5CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C44723E-A117-49D9-AA08-1015603B5CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C44723E-A117-49D9-AA08-1015603B5CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C44723E-A117-49D9-AA08-1015603B5CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A15460D-2B70-4F7E-9A3D-0A98DCCBC16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A15460D-2B70-4F7E-9A3D-0A98DCCBC16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A15460D-2B70-4F7E-9A3D-0A98DCCBC16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A15460D-2B70-4F7E-9A3D-0A98DCCBC16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B9E702-C682-470B-9C0A-86879D892AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B9E702-C682-470B-9C0A-86879D892AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B9E702-C682-470B-9C0A-86879D892AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B9E702-C682-470B-9C0A-86879D892AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

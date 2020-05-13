@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Colocator.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Colocator.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Colocator.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Colocator.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Colocator.Abstractions/Colocator.Abstractions.csproj",
+      "msbuildProject": "../Colocator.Abstractions/Colocator.Abstractions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "Colocator.Abstractions >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tcode/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/Colocator.iOS.csproj",
+      "projectName": "Colocator",
+      "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/Colocator.iOS.csproj",
+      "packagesPath": "/Users/tcode/.nuget/packages/",
+      "outputPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/tcode/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj": {
+              "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {}
+    }
+  }
+}

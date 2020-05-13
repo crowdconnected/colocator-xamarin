@@ -1,0 +1,9 @@
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/bin/Debug/netstandard2.0/Colocator.Abstractions.deps.json
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/bin/Debug/netstandard2.0/Colocator.Abstractions.dll
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/bin/Debug/netstandard2.0/Colocator.Abstractions.pdb
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/obj/Debug/netstandard2.0/Colocator.Abstractions.csproj.CoreCompileInputs.cache
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/obj/Debug/netstandard2.0/Colocator.Abstractions.AssemblyInfoInputs.cache
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/obj/Debug/netstandard2.0/Colocator.Abstractions.AssemblyInfo.cs
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/obj/Debug/netstandard2.0/Colocator.Abstractions.dll
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/obj/Debug/netstandard2.0/Colocator.Abstractions.pdb
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/obj/Debug/netstandard2.0/Colocator.Abstractions.csprojAssemblyReference.cache
