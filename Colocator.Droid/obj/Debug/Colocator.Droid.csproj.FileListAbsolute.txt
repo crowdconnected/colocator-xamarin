@@ -51,3 +51,10 @@
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/D65E66A4B5E90F7B.flata
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/F5D7DC1BB8EDE3C7.flata
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/CD5C0315C50198A3.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_BuildLibraryImportsCache 3.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_CleanIntermediateIfNuGetsChange 2.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_CleanIntermediateIfNuGetsChange 3.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertLibraryResourcesCases 3.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertResourcesCases 2.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertResourcesCases 3.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ResolveLibraryProjectImports 3.stamp

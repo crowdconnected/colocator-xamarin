@@ -2,15 +2,15 @@
 <package>
   <metadata>
     <id>Colocator</id>
-    <version>1.0.6.1</version>
+    <version>2.1.0</version>
     <title>Colocator</title>
-    <authors>Crowd Connected Ltd.</authors>
-    <owners>Robert Tanase</owners>
-    <!-- <license type="file">license.txt</license> -->
+    <authors>Robert Tanase </authors>
+    <owners>Crowd Connected Ltd</owners>
+    <license type="file">license.txt</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Colocator NET CrossPlatform Library</description>
-    <releaseNotes>Initial release</releaseNotes>
-    <summary>This version of Colocator uses a .NET Standard Library to encapsulate and share code across platforms. </summary>
+    <description>Colocator .NET Wrapper for native libraries</description>
+    <releaseNotes>Integrated iOS and Android Binding Libraries</releaseNotes>
+    <summary>Colocator uses a .NET Standard Library to encapsulate and share code across platforms. </summary>
     <dependencies>
       <group targetFramework="MonoAndroid0.0">
         <dependency id="Xamarin.GooglePlayServices.Location" version="71.1600.0" />
@@ -25,6 +25,8 @@
    </metadata>
 
   <files>
+    <file src="license.txt" target="" />
+
      <!-- the platform-specific assemblies for Android -->
     <file src="Colocator.Droid/bin/Debug/Colocator.Abstractions.dll" target="lib/MonoAndroid" />
     <file src="Colocator.Droid/bin/Debug/Colocator.dll" target="lib/MonoAndroid" />

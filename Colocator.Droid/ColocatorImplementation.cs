@@ -40,6 +40,7 @@ namespace Colocator
             ICurrentActivity current = CrossCurrentActivity.Current;
             Application appl = current.Activity.Application;
 
+            Console.WriteLine("Setting Foreground Service with application " + appl + "  title " + title + "  iconID " + icon + "  channel " + channel);
             CoLocator.SetServiceNotificationInfo(appl, title, icon, channel);
         }
 

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{7C44723E-A117-49D9-AA08-1015603B5CF3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Colocator.Droid/ColocatorImplementation.cs">
     <Files>
-      <File FileName="Colocator.Droid/ColocatorImplementation.cs" Line="21" Column="18" />
+      <File FileName="Colocator.Droid/ColocatorImplementation.cs" Line="28" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,9 +10,8 @@
             <Node name="Colocator.Droid" expanded="True" selected="True">
               <Node name="References" expanded="True" />
             </Node>
-            <Node name="ColocatorAndroid.Binding" expanded="True">
-              <Node name="Packages" expanded="True" />
-            </Node>
+            <Node name="Colocator.iOS" expanded="True" />
+            <Node name="ColocatorAndroid.Binding" expanded="True" />
           </Node>
         </State>
       </Pad>

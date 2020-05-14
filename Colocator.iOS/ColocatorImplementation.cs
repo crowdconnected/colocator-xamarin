@@ -89,13 +89,13 @@ namespace Colocator
 
         public override void DidReceiveCCLocation(CCLocation.LocationResponse location)
         {
-            Console.WriteLine("Colocator officially sent a location");
             ColocatorLocationResponse loc = new ColocatorLocationResponse();
             loc.Latitude = location.Latitude;
             loc.Longitude = location.Longitude;
             loc.HeadingOffSet = location.HeadingOffSet;
             loc.Error = location.Error;
             loc.Timestamp = location.Timestamp;
+
             Delegate.DidReceiveLocation(loc);
         }
     }
