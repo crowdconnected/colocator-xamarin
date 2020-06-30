@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{7C44723E-A117-49D9-AA08-1015603B5CF3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Colocator.Droid/ColocatorImplementation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs">
     <Files>
-      <File FileName="Colocator.Droid/ColocatorImplementation.cs" Line="28" Column="1" />
+      <File FileName="Colocator.Abstractions/IColocator.cs" Line="45" Column="24" />
+      <File FileName="../Colocator.Binding/Colocator.Binding/ApiDefinitions.cs" Line="144" Column="17" />
+      <File FileName="Colocator.Droid/ColocatorImplementation.cs" Line="99" Column="49" />
+      <File FileName="Colocator.iOS/ColocatorImplementation.cs" Line="98" Column="40" />
+      <File FileName="../Android/ColocatorAndroid.Binding/ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs" Line="167" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Colocator" expanded="True">
-            <Node name="Colocator.Droid" expanded="True" selected="True">
-              <Node name="References" expanded="True" />
-            </Node>
+          <Node name="Colocator" expanded="True" selected="True">
+            <Node name="Colocator.Abstractions" expanded="True" />
+            <Node name="Colocator.Droid" expanded="True" />
             <Node name="Colocator.iOS" expanded="True" />
-            <Node name="ColocatorAndroid.Binding" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -1,12 +1,12 @@
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/Colocator.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/Colocator.pdb
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/Colocator.Abstractions.dll
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/NativeLibrary.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/Colocator.Abstractions.pdb
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/NativeLibrary.pdb
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/optimized/
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.iOS.csprojAssemblyReference.cache
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.iOS.csproj.CoreCompileInputs.cache
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.iOS.csproj.CopyComplete
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/obj/Debug/Colocator.pdb
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/NativeLibrary.dll
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.iOS/bin/Debug/NativeLibrary.pdb

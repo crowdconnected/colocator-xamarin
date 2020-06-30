@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VxmDlQxn2W7lKp9FY8osthDe+b7ywMmAsy3hdRg9lZR6QoGYTLPksr4YSm2QcWvjrmNv8qtVfo1kKcr2yjgX4A==",
+  "success": true,
+  "projectFilePath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/Colocator.NetStandard.csproj",
+  "expectedPackageFiles": [
+    "/Users/tcode/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/tcode/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -6,14 +6,33 @@
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/Colocator.Colocator-Signed.apk
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/Colocator.Abstractions.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/ColocatorAndroid.Binding.dll
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/TrueTime.Binding.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/Colocator.Abstractions.pdb
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/ColocatorAndroid.Binding.pdb
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/TrueTime.Binding.pdb
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/build.props
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/adb.props
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/Colocator.Droid.csprojAssemblyReference.cache
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/_VerifyXamarinAndroidSupportVersions.stamp
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_BuildLibraryImportsCache.stamp
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/res.flag
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/05E1F022C056ED10.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/E96BC31867A87E21.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/AD2FACD172A86319.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/D65E66A4B5E90F7B.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/F5D7DC1BB8EDE3C7.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/45D4DD87EE01A2D3.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/0190B24EFB01BFEB.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/CD5C0315C50198A3.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/05E1F022C056ED10.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/E96BC31867A87E21.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/AD2FACD172A86319.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/D65E66A4B5E90F7B.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/F5D7DC1BB8EDE3C7.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/45D4DD87EE01A2D3.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/0190B24EFB01BFEB.flata
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/CD5C0315C50198A3.flata
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/compiled.flata
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/R.txt
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/R.cs.flag
@@ -28,33 +47,7 @@
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/android/bin/Colocator.Colocator.apks
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/res/values/strings.xml
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/uploadflags.txt
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_CleanIntermediateIfNuGetsChange.stamp
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_CleanIntermediateIfNeeded.stamp
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertLibraryResourcesCases.stamp
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertResourcesCases.stamp
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/Colocator.Droid.csprojAssemblyReference.cache
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/05E1F022C056ED10.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/E96BC31867A87E21.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/45D4DD87EE01A2D3.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/0190B24EFB01BFEB.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/05E1F022C056ED10.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/E96BC31867A87E21.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/45D4DD87EE01A2D3.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/0190B24EFB01BFEB.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/TrueTime.Binding.dll
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/bin/Debug/TrueTime.Binding.pdb
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/AD2FACD172A86319.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/D65E66A4B5E90F7B.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/F5D7DC1BB8EDE3C7.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/CD5C0315C50198A3.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/AD2FACD172A86319.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/D65E66A4B5E90F7B.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/F5D7DC1BB8EDE3C7.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/flata/CD5C0315C50198A3.flata
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_BuildLibraryImportsCache 3.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_CleanIntermediateIfNuGetsChange 2.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_CleanIntermediateIfNuGetsChange 3.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertLibraryResourcesCases 3.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertResourcesCases 2.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ConvertResourcesCases 3.stamp
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Droid/obj/Debug/stamp/_ResolveLibraryProjectImports 3.stamp

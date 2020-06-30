@@ -4,9 +4,9 @@
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/bin/Debug/netstandard2.0/Colocator.Abstractions.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/bin/Debug/netstandard2.0/Colocator.Abstractions.pdb
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.NetStandard.csprojAssemblyReference.cache
-/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.NetStandard.csproj.CoreCompileInputs.cache
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.NetStandard.AssemblyInfoInputs.cache
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.NetStandard.AssemblyInfo.cs
+/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.NetStandard.csproj.CoreCompileInputs.cache
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.NetStandard.csproj.CopyComplete
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.dll
 /Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.NetStandard/obj/Debug/netstandard2.0/Colocator.pdb

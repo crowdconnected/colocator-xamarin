@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NardVaqpJL8miNcExilVOKdaZ04w8W6odZDX8oDxskeWryjAl5HLun/9TKN4v5A+D3qighkgOW9KhQTGgKWfFg==",
+  "success": true,
+  "projectFilePath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator/Colocator.Abstractions/Colocator.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "/Users/tcode/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/tcode/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

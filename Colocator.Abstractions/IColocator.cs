@@ -66,5 +66,7 @@ namespace Colocator
 		public double Error { get; set; }
 
 		public ulong Timestamp { get; set; }
-    }
+
+		public double Floor { get; set; }
+	}
 }

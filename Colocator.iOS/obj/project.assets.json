@@ -62,7 +62,6 @@
         "xamarinios10"
       ],
       "sources": {
-        "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

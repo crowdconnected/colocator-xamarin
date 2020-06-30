@@ -21,7 +21,6 @@
           "monoandroid90"
         ],
         "sources": {
-          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,7 +88,6 @@
           "monoandroid90"
         ],
         "sources": {
-          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -138,7 +136,6 @@
           "netstandard2.0"
         ],
         "sources": {
-          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -172,7 +169,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -193,7 +190,6 @@
           "monoandroid90"
         ],
         "sources": {
-          "/Users/tcode/Desktop/CrowdConnected/Xamarin/Colocator": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

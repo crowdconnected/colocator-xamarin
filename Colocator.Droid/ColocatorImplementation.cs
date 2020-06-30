@@ -97,6 +97,7 @@ namespace Colocator
             loc.HeadingOffSet = p0.HeadingOffset;
             loc.Error = p0.Error;
             loc.Timestamp = (ulong)p0.Timestamp;
+            loc.Floor = p0.Floor;
 
             ColocatorMain.Instance.Delegate.DidReceiveLocation(loc);
         }
@@ -111,6 +112,7 @@ namespace Colocator
                 loc.HeadingOffSet = p0[i].HeadingOffset;
                 loc.Error = p0[i].Error;
                 loc.Timestamp = (ulong)p0[i].Timestamp;
+                loc.Floor = p0[i].Floor;
 
                 ColocatorMain.Instance.Delegate.DidReceiveLocation(loc);
             }

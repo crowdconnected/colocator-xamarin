@@ -2,14 +2,14 @@
 <package>
   <metadata>
     <id>Colocator</id>
-    <version>2.1.0</version>
+    <version>2.7.0</version>
     <title>Colocator</title>
-    <authors>Robert Tanase </authors>
+    <authors>Crowd Connected Ltd </authors>
     <owners>Crowd Connected Ltd</owners>
     <license type="file">license.txt</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Colocator .NET Wrapper for native libraries</description>
-    <releaseNotes>Integrated iOS and Android Binding Libraries</releaseNotes>
+    <releaseNotes>Integrated iOS and Android Binding Libraries (v2.7.0)</releaseNotes>
     <summary>Colocator uses a .NET Standard Library to encapsulate and share code across platforms. </summary>
     <dependencies>
       <group targetFramework="MonoAndroid0.0">

@@ -95,6 +95,7 @@ namespace Colocator
             loc.HeadingOffSet = location.HeadingOffSet;
             loc.Error = location.Error;
             loc.Timestamp = location.Timestamp;
+            loc.Floor = location.Floor;
 
             Delegate.DidReceiveLocation(loc);
         }
